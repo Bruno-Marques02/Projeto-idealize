@@ -1,15 +1,22 @@
 @charset "UTF-8";
 
 /* Reset de margens e preenchimentos */
-body, h1, h2, p, ul, li {
+ * {
     margin: 0;
     padding: 0;
+  }
+
+  html, body {
+    background: #ffff;
+    margin: 0px;
+    padding: 10px;
   }
   
   /* Estilos do cabeçalho */
   header {
-    background-color: #333;
-    color: #fff;
+    background: linear-gradient(to top, #FF8FAB, #FB6F92);
+    color: black;
+    
     text-align: center;
     padding: 1rem;
   }
@@ -18,8 +25,9 @@ body, h1, h2, p, ul, li {
   nav ul {
     list-style: none;
     display: flex;
-    background-color: #eee;
+    background-color: lightgray;
     padding: 0.5rem;
+    font-family: 'Glakome';
   }
   
   nav li {
@@ -39,9 +47,12 @@ body, h1, h2, p, ul, li {
   
   /* Estilos do rodapé */
   footer {
+    height: 100%;
     text-align: center;
     padding: 1rem;
-    background-color: #333;
-    color: #fff;
+    
+    height: 5vh;
+    background: linear-gradient(to top, #FF8FAB, #FB6F92);
+    color: black;
   }
   
